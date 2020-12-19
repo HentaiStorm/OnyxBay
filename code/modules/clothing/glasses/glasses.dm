@@ -89,6 +89,7 @@
 	desc = "Goggles fitted with a portable analyzer capable of determining the fabricator training potential of an item or components of a machine. Sensitive to EMP."
 	icon_state = "purple"
 	item_state = "glasses"
+	action_button_name = "Toggle Goggles"
 	hud_type = HUD_SCIENCE
 	toggleable = TRUE
 	electric = TRUE
@@ -207,6 +208,13 @@
 	desc = "Forest green glasses, like the kind you'd wear when hatching a nasty scheme."
 	icon_state = "gglasses"
 	item_state = "gglasses"
+	body_parts_covered = 0
+
+/obj/item/clothing/glasses/rglasses
+	name = "red glasses"
+	desc = "They make you look like a wannabe elite agent."
+	icon_state = "bigredglasses"
+	item_state = "bigredglasses"
 	body_parts_covered = 0
 
 /obj/item/clothing/glasses/sunglasses

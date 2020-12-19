@@ -366,7 +366,8 @@
 				/obj/item/toy/figure/warden,
 				/obj/item/toy/figure/psychologist,
 				/obj/item/toy/figure/paramedic,
-				/obj/item/toy/figure/ert)
+				/obj/item/toy/figure/ert,
+				/obj/item/toy/figure/moose)
 
 
 /obj/random/plushie
@@ -733,16 +734,19 @@ obj/random/obstruction/spawn_choices()
 
 /obj/random/snack/spawn_choices()
 	return list(/obj/item/weapon/reagent_containers/food/snacks/liquidfood,
-				/obj/item/weapon/reagent_containers/food/snacks/candy,
+				/obj/item/weapon/reagent_containers/food/snacks/packaged/tweakers,
+				/obj/item/weapon/reagent_containers/food/snacks/packaged/sweetroid,
+				/obj/item/weapon/reagent_containers/food/snacks/packaged/sugarmatter,
+				/obj/item/weapon/reagent_containers/food/snacks/packaged/jellaws,
 				/obj/item/weapon/reagent_containers/food/drinks/dry_ramen,
-				/obj/item/weapon/reagent_containers/food/snacks/chips,
-				/obj/item/weapon/reagent_containers/food/snacks/sosjerky,
-				/obj/item/weapon/reagent_containers/food/snacks/no_raisin,
+				/obj/item/weapon/reagent_containers/food/snacks/packaged/chips,
+				/obj/item/weapon/reagent_containers/food/snacks/packaged/sosjerky,
+				/obj/item/weapon/reagent_containers/food/snacks/packaged/no_raisin,
 				/obj/item/weapon/reagent_containers/food/snacks/spacetwinkie,
-				/obj/item/weapon/reagent_containers/food/snacks/cheesiehonkers,
-				/obj/item/weapon/reagent_containers/food/snacks/tastybread,
-				/obj/item/weapon/reagent_containers/food/snacks/candy/proteinbar,
-				/obj/item/weapon/reagent_containers/food/snacks/syndicake,
+				/obj/item/weapon/reagent_containers/food/snacks/packaged/cheesiehonkers,
+				/obj/item/weapon/reagent_containers/food/snacks/packaged/tastybread,
+				/obj/item/weapon/reagent_containers/food/snacks/packaged/nutribar,
+				/obj/item/weapon/reagent_containers/food/snacks/packaged/syndicake,
 				/obj/item/weapon/reagent_containers/food/snacks/donut,
 				/obj/item/weapon/reagent_containers/food/snacks/donut/cherryjelly,
 				/obj/item/weapon/reagent_containers/food/snacks/donut/jelly,
@@ -751,7 +755,7 @@ obj/random/obstruction/spawn_choices()
 				/obj/item/pizzabox/margherita,
 				/obj/item/pizzabox/mushroom,
 				/obj/item/weapon/reagent_containers/food/snacks/plumphelmetbiscuit,
-				/obj/item/weapon/reagent_containers/food/snacks/skrellsnacks,
+				/obj/item/weapon/reagent_containers/food/snacks/packaged/skrellsnacks,
 				/obj/item/weapon/reagent_containers/food/snacks/tortilla,
 				/obj/item/weapon/reagent_containers/food/snacks/popcorn,
 				/obj/item/weapon/reagent_containers/food/snacks/cookie)
@@ -781,6 +785,7 @@ obj/random/obstruction/spawn_choices()
 				/obj/item/weapon/storage/box/cups = 3,
 				/obj/item/weapon/storage/box/mousetraps = 5,
 				/obj/item/weapon/storage/box/engineer = 3,
+				/obj/item/weapon/storage/box/security = 3,
 				/obj/item/weapon/storage/box/vox = 1,
 				/obj/item/weapon/storage/box/beakers = 3,
 				/obj/item/weapon/storage/box/syringes = 3,
@@ -1078,7 +1083,7 @@ something, make sure it's not in one of the other lists.*/
 				/obj/item/clothing/glasses/welding/superior = 7,
 				/obj/item/clothing/head/collectable/petehat = 4,
 				/obj/item/clothing/suit/straight_jacket = 6,
-				/obj/item/clothing/head/helmet/merc = 3,
+				/obj/item/clothing/head/helmet/syndi = 3,
 				/obj/item/stack/material/diamond/ten = 7,
 				/obj/item/clothing/under/contortionist = 1,
 				/obj/item/stack/material/glass/phoronrglass/ten = 7,
@@ -1129,7 +1134,7 @@ something, make sure it's not in one of the other lists.*/
 				/obj/item/clothing/head/helmet/space/void/security/alt,
 				/obj/item/clothing/head/helmet/space/void/atmos,
 				/obj/item/clothing/head/helmet/space/void/atmos/alt,
-				/obj/item/clothing/head/helmet/space/void/merc,
+				/obj/item/clothing/head/helmet/space/void/syndi,
 				/obj/item/clothing/head/helmet/space/void/medical,
 				/obj/item/clothing/head/helmet/space/void/medical/alt)
 
@@ -1150,7 +1155,7 @@ something, make sure it's not in one of the other lists.*/
 				/obj/item/clothing/suit/space/void/security/alt,
 				/obj/item/clothing/suit/space/void/atmos,
 				/obj/item/clothing/suit/space/void/atmos/alt,
-				/obj/item/clothing/suit/space/void/merc,
+				/obj/item/clothing/suit/space/void/syndi,
 				/obj/item/clothing/suit/space/void/medical,
 				/obj/item/clothing/suit/space/void/medical/alt)
 

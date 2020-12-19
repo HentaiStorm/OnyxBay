@@ -111,7 +111,7 @@
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
 /area/shuttle/syndicate_elite
-	name = "\improper Merc Elite Shuttle"
+	name = "\improper Syndicate Elite Shuttle"
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
 /area/shuttle/transport/centcom
@@ -221,7 +221,7 @@
 //SYNDICATES
 
 /area/syndicate_mothership
-	name = "\improper Mercenary Base"
+	name = "\improper Syndicate Base"
 	icon_state = "syndie-ship"
 	requires_power = 0
 	dynamic_lighting = 0
@@ -293,7 +293,7 @@
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
 /area/syndicate_station/start
-	name = "\improper Mercenary Forward Operating Base"
+	name = "\improper Syndicate Forward Operating Base"
 	icon_state = "yellow"
 
 /area/syndicate_station/southwest
@@ -592,6 +592,10 @@
 
 /area/maintenance/underground/engineering
 	name = "\improper Underground Engineering Maintenance"
+	icon_state = "uengineering"
+
+/area/maintenance/underground/engineering_lower
+	name = "\improper Underground Engineering"
 	icon_state = "uengineering"
 
 /area/maintenance/underground/research
@@ -1048,48 +1052,48 @@
 
 
 /area/crew_quarters/sleep/cabin1
-	name = "\improper Private Cabin One"
+	name = "\improper Private Bedroom One"
 	icon_state = "PrivDormOne"
 	sound_env = SMALL_SOFTFLOOR
 
 /area/crew_quarters/sleep/cabin2
-	name = "\improper Private Cabin Two"
+	name = "\improper Private Bedroomn Two"
 	icon_state = "PrivDormTwo"
 	sound_env = SMALL_SOFTFLOOR
 
 /area/crew_quarters/sleep/cabin3
-	name = "\improper Private Cabin Three"
+	name = "\improper Private Bedroom Three"
 	icon_state = "PrivDormThree"
 	sound_env = SMALL_SOFTFLOOR
 
 /area/crew_quarters/sleep/cabin4
-	name = "\improper Private Cabin Four"
+	name = "\improper Private Bedroom Four"
 	icon_state = "PrivDormFour"
 	sound_env = SMALL_SOFTFLOOR
 
 /area/crew_quarters/sleep/cabin5
-	name = "\improper Private Cabin Five"
+	name = "\improper Private Bedroom Five"
 	icon_state = "PrivDormFive"
 	sound_env = SMALL_SOFTFLOOR
 
 /area/crew_quarters/sleep/cabin6
-	name = "\improper Private Cabin Six"
+	name = "\improper Private Bedroom Six"
 	icon_state = "PrivDormSix"
 	sound_env = SMALL_SOFTFLOOR
 
-/area/crew_quarters/sleep/cabin7
-	name = "\improper Private Cabin Seven"
-	icon_state = "PrivDormSeven"
+/area/crew_quarters/sleep/underg_cabin1
+	name = "\improper Underground Bedroom One"
+	icon_state = "UndergroundDormOne"
 	sound_env = SMALL_SOFTFLOOR
 
-/area/crew_quarters/sleep/cabin8
-	name = "\improper Private Cabin Eight"
-	icon_state = "PrivDormEight"
+/area/crew_quarters/sleep/underg_cabin2
+	name = "\improper Underground Bedroom Two"
+	icon_state = "UndergroundDormTwo"
 	sound_env = SMALL_SOFTFLOOR
 
-/area/crew_quarters/sleep/cabin9
-	name = "\improper Private Cabin Nine"
-	icon_state = "PrivDormNine"
+/area/crew_quarters/sleep/underg_cabin3
+	name = "\improper Underground Bedroom Three"
+	icon_state = "UndergroundDormThree"
 	sound_env = SMALL_SOFTFLOOR
 
 /area/crew_quarters/sleep/engi_wash
@@ -1099,6 +1103,11 @@
 
 /area/crew_quarters/sleep/bedrooms
 	name = "\improper Dormitory Bedroom One"
+	icon_state = "Sleep"
+	sound_env = SMALL_SOFTFLOOR
+
+/area/crew_quarters/sleep/dorms
+	name = "\improper Dormitory Shared Bedroom"
 	icon_state = "Sleep"
 	sound_env = SMALL_SOFTFLOOR
 
@@ -1165,6 +1174,10 @@
 /area/chapel/office
 	name = "\improper Chapel Office"
 	icon_state = "chapeloffice"
+
+/area/chapel/crematorium
+	name = "\improper Сrematorium"
+	icon_state = "chapelcrematorium"
 
 /area/lawoffice
 	name = "\improper Internal Affairs"
@@ -1877,6 +1890,9 @@ area/rnd/test_area
 	name = "\improper Holodeck - Space"
 	has_gravity = 0
 	sound_env = SPACE
+
+/area/holodeck/source_chess
+	name = "\improper Holodeck - Chess Field"
 
 /area/prison/solitary
 	name = "Solitary Confinement"
